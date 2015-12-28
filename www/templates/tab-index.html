@@ -1,0 +1,147 @@
+<ion-view view-title="有的拍">
+
+
+  <ion-content>
+
+    <!-- 首页推荐图 -->
+    <section id="top-recommend">
+      <div class="top-recommend-cover">
+        <img style="position:absolute;left:-1000px;right:-1000px;bottom:-1000px;top:-1000px;margin:auto;width:562.5px;height:375px;" src="img/data/bg.jpg">
+      </div>
+      <div class="top-recommend-slogan">
+        <h2>
+          预约摄影师拍照
+          <br />
+          记录每一个特别的你
+
+          <div class="top-recommend-links">
+            <a href="#" class="about-service">如何预约拍照?</a>
+          </div>
+        </h2>
+      </div>
+      <div class="top-recommend-photographer">
+        <div class="author">
+          &copy; 摄影师: <a href="#">fback (郑州)</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- banner广告位置 -->
+    <section id="bannerSection" style="border-top: 1px solid #e1e1e1;" class="padding-top">
+        <div style="width:100%;text-align:center;" class="padding">
+            <h2>热门专题</h2>
+        </div>
+        <!-- on-slide-changed="slideHasChanged($index)" -->
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="1000">
+            <ion-slide ng-repeat="b in banner">
+                <!-- ng-click="bannerClick('{{b.url}}','{{b.title}}')" -->
+                <div class="box" style="width:16rem;height:7rem;background:url({{b.img}}) center 0 no-repeat;text-align:center;background-size:16rem 7rem">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+
+        <div class="row">
+            <a class="col" style="text-align: center;">
+              <span>往期专题回顾>></span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- 快捷入口区域 -->
+    <!-- <section></section> -->
+
+    <section id="hotPlace">
+
+      <div class="listitem">
+        <div class="litem padding">
+        
+          <div class="title"><h2>推荐阅读</h2></div>
+        </div>
+
+        <div class="image-list row">
+          <a class="col">
+            <img src="img/data/1.jpeg" style="width:100%;height:50%;"  title="景点特供图" alt="景点特供图">
+            <div class="salt-desc">
+              <h2>郑州</h2>
+              <span class="desc">全套婚纱摄影</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class="listitem">
+        <div class="litem padding">
+          
+          <div class="title"><h2>热门套系</h2></div>
+        </div>
+
+        <div class="image-list">
+          <div class="row">
+            <a class="col salt-item" ng-repeat="l in llist">
+              <img src="img/data/1.jpeg" style="width:100%;height:50%;"  title="景点特供图" alt="景点特供图">
+              <div class="salt-desc">
+                <h2>郑州</h2>
+                <span class="desc">全套婚纱摄影</span>
+              </div>
+              <div class="salt-price padding-vertical">
+                <span><span class="num-price">¥1499</span>起/人</span>
+              </div>
+            </a>
+            
+          </div>
+          <div class="row">
+            <a class="col salt-item" ng-repeat="r in rlist">
+              <img src="img/data/1.jpeg" style="width:100%;height:50%;"  title="景点特供图" alt="景点特供图">
+              <div class="salt-desc">
+                <h2>郑州</h2>
+                <span class="desc">全套婚纱摄影</span>
+              </div>
+              <div class="salt-price padding-vertical">
+                <span><span class="num-price">¥1499</span>起/人</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="row">
+            <a class="col">
+              <span>查看更多超值热卖</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="listitem">
+        <div class="litem padding">
+          
+          <div class="title"><h2>热门景区</h2></div>
+        </div>
+        <div class="image-list">
+          <div class="row">
+            <a class="col" ng-repeat="l in llist">
+              <img src="img/data/1.jpeg" style="width:100%;height:100%;"  title="景点特供图" alt="景点特供图">
+              <div class="salt-desc">
+                <h2>郑州</h2>
+                <span class="desc">全套婚纱摄影</span>
+              </div>
+            </a>
+          </div>
+          <div class="row">
+            <a class="col" ng-repeat="l in rlist">
+              <img src="img/data/1.jpeg" style="width:100%;height:100%;"  title="景点特供图" alt="景点特供图">
+              <div class="salt-desc">
+                <h2>郑州</h2>
+                <span class="desc">全套婚纱摄影</span>
+              </div>
+            </a>
+          </div>
+          <div class="row">
+            <a class="col">
+              <span>查看更多超值热卖</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </ion-content>
+</ion-view>

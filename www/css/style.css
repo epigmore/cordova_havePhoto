@@ -1,0 +1,212 @@
+/* Empty. Add your own CSS if you like */
+
+/* Empty. Add your own CSS if you like 
+
+*/
+body{
+	font-family: 'Helvetica Neue', Roboto, 'Segoe UI', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h2{
+	font-size: 0.75rem;
+	letter-spacing: .25em;
+	text-shadow: 0 0 1px rgba(0,0,0,0.08);
+}
+a{
+	text-decoration: none;
+}
+#content{
+	position: relative;
+	width: 16rem;
+	margin:  0 auto;
+}
+/************************大图推荐************************/
+#top-recommend{
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #EEE;
+}
+.top-recommend-cover{
+	position: relative;
+	text-align: center;
+	font-size: 0rem;
+	height: 14rem;
+}
+.top-recommend-cover:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-image: linear-gradient(to bottom,transparent 80%,rgba(0,0,0,0.3) 100%);
+}
+.top-recommend-slogan{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	text-align: center;
+	font-size: 0;
+	left: 0;
+	right: 0;
+}
+.top-recommend-slogan h2{
+	color: #FFF;
+}
+.top-recommend-links{
+	margin-top: 10px;
+}
+.top-recommend-links .about-service{
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #f66;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+.top-recommend-links a:link,
+.top-recommend-links a:visited,
+.top-recommend-links a:active{
+	color: #fff;
+}
+
+.top-recommend-photographer{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+.top-recommend-photographer a:link,
+.top-recommend-photographer a:visited,
+.top-recommend-photographer a:active{
+	color: #fff;
+}
+
+/*****************************************************/
+#bannerSection h2{
+	color: #666;
+}
+
+/************************内容区************************/
+#hotPlace{
+	border-top: 1px solid #DEDEDE; 
+	background: #EEE;
+}
+
+#hotPlace h2{
+	color: #666;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+#hotPlace .title {
+	display: inline-block;
+	height: 1rem;
+	clear: left;
+}
+
+#hotPlace .desc{
+	width: 95%;
+	font-size: 0.5rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow: hidden;
+}
+#hotPlace .litem{
+	width: 100%;
+}
+#hotPlace .litem:before{
+	content:"";
+	display: block;
+	float: left;
+	margin: 0 5px;
+	width: 0.4rem;
+	height: 1rem;
+	background-color:orange;
+	background-color:yellow;
+}
+#hotPlace .listitem{
+	margin: 0.5rem auto;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+}
+#hotPlace .col{
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+#hotPlace .salt-item{
+	border: 1px solid #DEDEDE;
+}
+
+#hotPlace .salt-desc{
+	margin: 5px auto;
+}
+
+#hotPlace .salt-price{
+	border-top: 1px solid #DEDEDE;
+	text-align: center;
+	margin: auto;
+	width: 95%;
+}
+
+.num-price{
+	color: orange;
+	font-weight: bold;
+}
+
+.fix-desc{
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	height: 2rem;
+}
+
+/************************个人中心*************************/
+.account-info{
+	background-image: url(../img/a_bg.jpg);
+	width: 100%;
+	height: 9rem;
+	position: relative;
+}
+.account-info h2{
+	letter-spacing: 1px;
+	color: #fff;
+}
+.account-info a{
+	color: #fff;
+}
+.account-info .account-info-tips{
+	position: absolute;
+	top: 25%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: -10px;
+	text-align: center;
+	width: 100%;
+}
+.account-info .account-info-links{
+
+}
+.account-info-tips .img{
+	margin: 0 auto;
+	padding: 5px;
+	width: 130px;
+	height: 130px;
+	background-color: #EFEFEF;
+	border-radius: 65px;
+}
+.account-info-tips img{
+	border-radius: 60px;
+}
+.account-opt{
+
+}
