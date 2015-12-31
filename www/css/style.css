@@ -198,15 +198,18 @@ a{
 }
 .account-info-tips .img{
 	margin: 0 auto;
-	padding: 5px;
-	width: 130px;
-	height: 130px;
+	padding: 3px;
+	width: 106px;
+	height: 106px;
 	background-color: #EFEFEF;
-	border-radius: 65px;
+	border-radius: 53px;
 }
 .account-info-tips img{
-	border-radius: 60px;
+	border-radius: 50px;
 }
-.account-opt{
-
+.account-opt .item{
+	font-size: 0.7rem;
+}
+.account-opt .icon{
+	font-size: 1.4rem;
 }
